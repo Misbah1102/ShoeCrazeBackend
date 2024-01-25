@@ -20,6 +20,10 @@ app.use(
   })
 );
 
+app.get("/", (req, resp)=>{
+  resp.json("hello")
+})
+
 
 app.use("/api/shoes" , shoeRouter);
 app.use("/api/users", userRouter);
