@@ -5,7 +5,7 @@
         },
         {
         "src":"/api/shoes",
-         "dest":"/",
+         "dest":"/"
         }
     ]
 }
