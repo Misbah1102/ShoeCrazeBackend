@@ -5,6 +5,10 @@ import { ShoeModel } from "../models/shoe.model";
 
 const router = Router();
 
+router.get("/", (req, resp)=>{
+  resp.json("hello")
+})
+
 router.get(
   "/Craze",
   asynceHandler(async (req, resp) => {
